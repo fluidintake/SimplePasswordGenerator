@@ -1,5 +1,5 @@
 # Import modules
-import random
+import secrets
 
 # Define available password characters
 symbols = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*()_'
@@ -14,7 +14,7 @@ while not length.isdigit():
 # Generate password
 password = ""
 for i in range(int(length)):
-    password += random.choice(symbols)
+    password += secrets.choice(symbols)
 
 # Display password
 print(password)
