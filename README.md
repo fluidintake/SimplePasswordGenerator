@@ -1,7 +1,7 @@
 # SimplePasswordGenerator
 # Password Generator
 
-My first Python project: a simple and secure random password generator.
+My first Python project: a simple and secure random password generator. I will work on transforming it from CLI to GUI.
 
 Uses Python's `secrets` module to generate passwords with cryptographically secure randomness.
 
