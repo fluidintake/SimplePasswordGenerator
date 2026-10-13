@@ -1,7 +1,3 @@
-Here's the updated README, keeping your original style and formatting while reflecting the new Tkinter GUI, input validation, and clipboard functionality.
-
-Writing
-
 # SimplePasswordGenerator
 
 ## Password Generator
